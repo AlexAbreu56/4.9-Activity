@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class Solver {
     public static void main(String[] args){
+        Caltwo cal = new Caltwo();
         Scanner sc = new Scanner(System.in);
         System.out.println("What math");
-        Cal cal = new Cal();
-        
-        System.out.print(cal.solve("4+10+3+3"));
+        String Problem = sc.nextLine();
+        System.out.println(cal.funnyCal(Problem));
     }
     
 
