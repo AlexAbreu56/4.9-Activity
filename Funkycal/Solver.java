@@ -7,6 +7,7 @@ public class Solver {
         System.out.println("What math");
         String Problem = sc.nextLine();
         System.out.println(cal.funnyCal(Problem));
+
     }
     
 
