@@ -49,7 +49,7 @@ public class Caltwo {
         while(x.contains("+") || x.contains("-") || x.contains("*") || x.contains("/"))
         {
             ArrayList<String> equa2 = new ArrayList<String>();
-            String[] temp = x.split("((?=[+-/*()])|(?<=[+-/*()]))");
+            String[] temp = x.split("((?=[+-/*()^])|(?<=[+-/*()^]))");
             for(int i = 0; i < temp.length; i++)
             {
                 equa2.add(temp[i]);
